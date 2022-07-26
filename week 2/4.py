@@ -1,0 +1,10 @@
+h1 = int(input("enter the  hour of the first timestamp "))
+m1 = int(input("enter the  minutes of the first timestamp "))
+s1 = int(input("enter the  seconds of the first timestamp "))
+h2 = int(input("enter the hour of the second timestamp "))
+m2 = int(input("enter the minutes of the second timestamp "))
+s2 = int(input("enter the seconds of the second timestamp "))
+t1 = (h1*3600)+(m1*60)+s1 #converting the timestamp 1 into seconds
+t2 = (h2*3600)+(m2*60)+s2 #converting the timestamp 2 into seconds
+diff = t2-t1              #finding the difference beween the timestamps
+print("the difference between the two timestamps in seconds is = ",diff)

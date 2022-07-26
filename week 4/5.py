@@ -1,0 +1,5 @@
+values = input("enter as many numbers as you want")
+list1=values.split(",")
+tuple1=tuple(list1)
+print("The extracted values in list form are ",list1)
+print("The extracted values in tuple form are ",tuple1)
